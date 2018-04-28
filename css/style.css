@@ -1,7 +1,8 @@
 /* https://color.adobe.com/Tglass-2-color-theme-10619392/ */
 
 body {
-  margin-top: 105px; }
+  margin-top: 105px;
+  background-color: rgba(52, 74, 247, 0.8);}
 
 .navbar {
   box-shadow: 2px 2px 5px #85E0F7;
@@ -14,6 +15,7 @@ color:#4875F5;  }
   padding-right: 20px; }
 
 #showcase {
+  margin: -10px;
   position: relative;
   background: url("../img/mountains.jpg");
   min-height: 600px; }
@@ -25,6 +27,10 @@ color:#4875F5;  }
   left: 0;
   width: 100%;
   height: 100%; }
+
+  #book{
+    margin: 20px;
+  }
 
 .info-header {
   width: 50%;
